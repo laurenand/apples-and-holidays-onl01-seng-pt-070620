@@ -22,6 +22,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     supplies_hash.each do |holiday, data|
       if holiday == :memorial_day 
         data << "Grill"
+        binding.pry
       end
     end
   end
