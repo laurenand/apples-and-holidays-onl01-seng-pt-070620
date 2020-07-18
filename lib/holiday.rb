@@ -52,7 +52,6 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday, supplies|
     if season
-      holiday.keys[0].to_s.capitalize! << ":"
       binding.pry
   
     end
