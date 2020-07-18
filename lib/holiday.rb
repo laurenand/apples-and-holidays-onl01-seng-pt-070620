@@ -51,8 +51,9 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season, holiday|
-    if season == :winter
-      season.to_s.capitalize!
+    season.to_s.capitalize!
+    if season == "Winter"
+      holiday.
   binding.pry
   end
 end
