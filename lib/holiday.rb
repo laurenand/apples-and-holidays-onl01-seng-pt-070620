@@ -54,6 +54,7 @@ def all_supplies_in_holidays(holiday_hash)
     season.to_s.capitalize!
     if season == "Winter"
   binding.pry
+    end
   end
 end
 
