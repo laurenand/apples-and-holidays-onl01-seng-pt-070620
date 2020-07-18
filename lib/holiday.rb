@@ -52,7 +52,9 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday, supplies|
     if season == :winter
-      puts "#{season.capitalize}:".chomp "#{holiday.capitalize}: "
+      puts "#{season.capitalize}:"
+      holiday.keys
+      binding.pry
   
     end
   end
