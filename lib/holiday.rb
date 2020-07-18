@@ -23,6 +23,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       if holiday == :memorial_day 
         data << "Grill"
         data.delete_if {|supply| supply == "Table Cloth"
+        end
       end
     end
   end
