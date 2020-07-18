@@ -53,7 +53,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday, supplies|
     if season == :winter
       puts "#{season.capitalize}:"
-      holiday.keys
+      holiday.keys[0].to_s.capitalize! << ":"
       binding.pry
   
     end
